@@ -32,6 +32,8 @@
 		D69BA30C259B21A30005E96B /* Covid19API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AC58324D59A96008CAA0D /* Covid19API.swift */; };
 		D69BA30D259B21A30005E96B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AC5C224D67C94008CAA0D /* Helpers.swift */; };
 		D69BA30E259B21A30005E96B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AC5BC24D67C42008CAA0D /* Utils.swift */; };
+		D69BA314259B29890005E96B /* TotalCaseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BA313259B29890005E96B /* TotalCaseEntry.swift */; };
+		D69BA318259B2B410005E96B /* GlobalTotalStatsTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69BA317259B2B410005E96B /* GlobalTotalStatsTimelineProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		D69BA2F9259B211A0005E96B /* Covid19StatsWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Covid19StatsWidget.intentdefinition; sourceTree = "<group>"; };
 		D69BA2FA259B211A0005E96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69BA2FC259B211A0005E96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69BA313259B29890005E96B /* TotalCaseEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCaseEntry.swift; sourceTree = "<group>"; };
+		D69BA317259B2B410005E96B /* GlobalTotalStatsTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTotalStatsTimelineProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 				D69BA2F9259B211A0005E96B /* Covid19StatsWidget.intentdefinition */,
 				D69BA2FA259B211A0005E96B /* Assets.xcassets */,
 				D69BA2FC259B211A0005E96B /* Info.plist */,
+				D69BA313259B29890005E96B /* TotalCaseEntry.swift */,
+				D69BA317259B2B410005E96B /* GlobalTotalStatsTimelineProvider.swift */,
 			);
 			path = Covid19StatsWidget;
 			sourceTree = "<group>";
@@ -293,12 +299,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69BA30B259B21A30005E96B /* PieChartRow.swift in Sources */,
+				D69BA314259B29890005E96B /* TotalCaseEntry.swift in Sources */,
 				D69BA308259B21A30005E96B /* Model.swift in Sources */,
 				D69BA30E259B21A30005E96B /* Utils.swift in Sources */,
 				D69BA30A259B21A30005E96B /* PieChartView.swift in Sources */,
 				D69BA30D259B21A30005E96B /* Helpers.swift in Sources */,
 				D69BA309259B21A30005E96B /* PieChartCell.swift in Sources */,
 				D69BA2FD259B211A0005E96B /* Covid19StatsWidget.intentdefinition in Sources */,
+				D69BA318259B2B410005E96B /* GlobalTotalStatsTimelineProvider.swift in Sources */,
 				D69BA2F8259B211A0005E96B /* Covid19StatsWidget.swift in Sources */,
 				D69BA30C259B21A30005E96B /* Covid19API.swift in Sources */,
 			);
